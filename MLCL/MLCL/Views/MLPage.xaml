@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MLCL.Views.MLPage">
+    <ContentPage.Content>
+        
+            <Grid Padding="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Relative Compactness:" />
+                <Entry Grid.Column="1" Grid.Row="0" Text="{Binding RelativeCompactness}"/>
+
+                <Label Grid.Column="0" Grid.Row="1" Text="Surface Area:" />
+                <Entry Grid.Column="1" Grid.Row="1" Text="{Binding SurfaceArea}"/>
+
+                <Label Grid.Column="0" Grid.Row="2" Text="Wall Area:" />
+                <Entry Grid.Column="1" Grid.Row="2" Text="{Binding WallArea}"/>
+
+                <Label Grid.Column="0" Grid.Row="3" Text="Roof Area:" />
+                <Entry Grid.Column="1" Grid.Row="3" Text="{Binding RoofArea}"/>
+
+                <Label Grid.Column="0" Grid.Row="4" Text="Overall Height:" />
+                <Entry Grid.Column="1" Grid.Row="4" Text="{Binding OverallHeight}"/>
+
+                <Label Grid.Column="0" Grid.Row="5" Text="Orientation:" />
+                <Entry Grid.Column="1" Grid.Row="5" Text="{Binding Orientation}"/>
+
+                <Label Grid.Column="0" Grid.Row="6" Text="Glazing Area:" />
+                <Entry Grid.Column="1" Grid.Row="6" Text="{Binding GlazingArea}"/>
+
+                <Label Grid.Column="0" Grid.Row="7" Text="Glazing Area Distribution:" />
+                <Entry Grid.Column="1" Grid.Row="7" Text="{Binding GlazingAreaDistribution}"/>
+
+                <Label Grid.Column="0" Grid.Row="8" Text="Heating Load:" />
+                <Entry Grid.Column="1" Grid.Row="8" Text="{Binding HeatingLoad}"/>
+
+            <Button Grid.ColumnSpan="2" Grid.Row="9" Text="Serviço Com Modelo" Command="{Binding EnviarCommand}"/>
+                
+            </Grid>
+        
+        <!--<Button  Text="Servico" Command="{Binding ServicoCommand}"/>-->
+    </ContentPage.Content>
+</ContentPage>

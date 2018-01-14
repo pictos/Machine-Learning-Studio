@@ -1,0 +1,19 @@
+﻿{
+  "Inputs": {
+    "input1": [
+      {
+        "Relative Compactness": "0.98",
+        "Surface Area": "514.5",
+        "Wall Area": "294",
+        "Roof Area": "110.25",
+        "Overall Height": "7",
+        "Orientation": "2",
+        "Glazing Area": "0",
+        "Glazing Area Distribution": "0",
+        "Heating Load": "15.55",
+        "Cooling Load": ""
+      }
+    ]
+  },
+  "GlobalParameters": {}
+}
