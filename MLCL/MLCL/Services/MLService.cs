@@ -11,7 +11,7 @@ namespace MLCL.Services
 {
     public class MLService
     {
-        private readonly string url = "URL DO SERVIÇO";
+        private readonly string url = "URL DO SERVIÇSO";
         private readonly string apiKey = "CHAVE DO SERVIÇO";
 
         HttpClient _client;
